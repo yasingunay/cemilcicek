@@ -23,7 +23,7 @@ export default function Header({ onSearchClick }: HeaderProps) {
           <div className="flex items-center space-x-3 cursor-pointer" onClick={() => scrollToSection('hero')}>
             <Scale className="w-8 h-8 text-amber-700" />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Cemil Çiçek</h1>
+              <h1 className="text-xl font-bold text-gray-900">Av. Cemil Çiçek</h1>
               <p className="text-sm text-gray-600">Hukuk Danışmanlık</p>
             </div>
           </div>

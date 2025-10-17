@@ -29,7 +29,7 @@ const blogPosts = [
     title: 'Ceza İnfaz Sisteminde Yeni Düzenlemeler',
     date: '12 Mart 2024',
     category: 'Ceza Hukuku',
-    image: 'https://images.pexels.com/photos/8111848/pexels-photo-8111848.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=800',
     excerpt: 'Ceza infaz sisteminde yapılan son düzenlemeler ve hükümlülerin haklarına ilişkin önemli gelişmeler. Koşullu salıverme ve denetimli serbestlik uygulamaları.',
     link: '#'
   },

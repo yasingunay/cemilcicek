@@ -13,7 +13,7 @@ const pressItems = [
     title: 'Anayasa Mahkemesi Kararları Semineri',
     source: 'Adalet Platformu',
     date: '8 Mart 2024',
-    image: 'https://images.pexels.com/photos/8111848/pexels-photo-8111848.jpeg?auto=compress&cs=tinysrgb&w=800',
+    image: 'https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#',
     excerpt: 'Bireysel başvuru süreçleri ve son dönem içtihatlar üzerine seminer'
   },

@@ -2,52 +2,52 @@ import { Newspaper, ExternalLink } from 'lucide-react';
 
 const pressItems = [
   {
-    title: 'Cemil Çiçek ile Özel Röportaj',
-    source: 'Hukuk Haberleri',
-    date: '15 Mart 2024',
+    title: 'CNN Türk\'te Cemil Çiçekler Karıştı',
+    source: 'Bizim TV',
+    date: '2020',
     image: 'https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#',
-    excerpt: 'Ceza hukuku alanındaki son gelişmeler ve uygulamalar hakkında değerlendirmeler'
+    excerpt: 'CNN Türk\'te eski TBMM Başkanı Cemil Çiçek\'in tweetleri okunmak istenirken, yanlışlıkla Avukat Cemil Çiçek\'in tweetleri okundu'
   },
   {
-    title: 'Anayasa Mahkemesi Kararları Semineri',
-    source: 'Adalet Platformu',
-    date: '8 Mart 2024',
-    image: 'https://images.pexels.com/photos/6077326/pexels-photo-6077326.jpeg?auto=compress&cs=tinysrgb&w=800',
-    link: '#',
-    excerpt: 'Bireysel başvuru süreçleri ve son dönem içtihatlar üzerine seminer'
-  },
-  {
-    title: 'KVKK ve Güncel Uygulamalar',
-    source: 'Hukuk Gündem',
-    date: '1 Mart 2024',
+    title: 'Sosyal Medyada İnsan Hakları Aktivistliği',
+    source: 'Eksisozluk',
+    date: '2023',
     image: 'https://images.pexels.com/photos/5668858/pexels-photo-5668858.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#',
-    excerpt: 'Kişisel verilerin korunması konusunda güncel düzenlemeler ve pratik çözümler'
+    excerpt: 'Twitter\'da Doğu Türkistan ve Uygur Türklerinin insan hakları ihlalleri konusunda aktif paylaşımlar'
   },
   {
-    title: 'İdare Hukuku Reformları',
-    source: 'Hukuk Perspektif',
-    date: '22 Şubat 2024',
+    title: 'Antalya Cezaevi Olayları Hakkında Açıklama',
+    source: 'Halk TV',
+    date: '2024',
     image: 'https://images.pexels.com/photos/5669619/pexels-photo-5669619.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#',
-    excerpt: 'İdare hukukundaki yeni düzenlemeler ve yargı kararlarının analizi'
+    excerpt: 'Antalya\'da tutuklu bulunan "Yenidoğan çetesi" davası sanıklarından İlker Gönen hakkında sosyal medya paylaşımı'
   },
   {
-    title: 'Memur Hakları ve Yasal Düzenlemeler',
-    source: 'Kamu Hukuku Dergisi',
-    date: '10 Şubat 2024',
+    title: 'Sakarya Trafik Kazası Açıklaması',
+    source: 'Medya Bar',
+    date: '2024',
     image: 'https://images.pexels.com/photos/7841458/pexels-photo-7841458.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#',
-    excerpt: 'Kamu görevlilerinin hakları ve son düzenlemeler üzerine kapsamlı değerlendirme'
+    excerpt: 'Sakarya\'da meydana gelen trafik kazası sonrasında kamyon şoförünün en ağır cezayla cezalandırılması gerektiği açıklaması'
   },
   {
-    title: 'AİHM Başvuru Süreci',
-    source: 'Uluslararası Hukuk',
-    date: '5 Şubat 2024',
+    title: 'Düşünce ve İfade Özgürlüğü Savunması',
+    source: 'TV Nota',
+    date: '2024',
     image: 'https://images.pexels.com/photos/5669602/pexels-photo-5669602.jpeg?auto=compress&cs=tinysrgb&w=800',
     link: '#',
-    excerpt: 'Avrupa İnsan Hakları Mahkemesi başvuru koşulları ve süreç hakkında bilgilendirme'
+    excerpt: 'Hakkında açılan soruşturmaya tepki göstererek düşünce ve ifade özgürlüğü kapsamında değerlendirilmesi gerektiğini belirtti'
+  },
+  {
+    title: 'Ankara Barosu\'nda Aktif Üyelik',
+    source: 'Ankara Barosu',
+    date: '2023',
+    image: 'https://images.pexels.com/photos/6077447/pexels-photo-6077447.jpeg?auto=compress&cs=tinysrgb&w=800',
+    link: '#',
+    excerpt: 'Ankara 1 Nolu Barosu\'na kayıtlı olarak serbest avukatlık yapmakta ve baro etkinliklerinde aktif rol almaktadır'
   }
 ];
 

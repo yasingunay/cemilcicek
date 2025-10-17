@@ -13,7 +13,7 @@ function App() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       <Header onSearchClick={() => setIsSearchOpen(true)} />
       <main>
         <Hero />

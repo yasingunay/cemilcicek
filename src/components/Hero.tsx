@@ -25,13 +25,13 @@ export default function Hero() {
             <Scale className="w-16 h-16 text-amber-400" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Cemil Çiçek
+            Av. Cemil Çiçek
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-gray-200 font-light">
-            Hukuk Danışmanlık
+            Ceza Hukuku • İdare Hukuku • Anayasa Hukuku
           </p>
           <p className="text-lg md:text-xl mb-12 text-gray-300 max-w-3xl mx-auto">
-            Profesyonel hukuk hizmetleri ile haklarınızı koruyoruz. Deneyim, güven ve başarı odaklı çözümler.
+            Ankara Barosu'na kayıtlı avukat. İnsan hakları ve politika alanında uzman. İngilizce, Rusça ve Almanca dil desteği.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button
@@ -55,18 +55,18 @@ export default function Hero() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="flex flex-col items-center text-center">
               <Award className="w-12 h-12 text-amber-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Uzman Kadro</h3>
-              <p className="text-gray-300">Alanında deneyimli ve uzman hukuk hizmeti</p>
+              <h3 className="text-xl font-semibold mb-2">Uzmanlık Alanları</h3>
+              <p className="text-gray-300">Ceza, İdare ve Anayasa Hukuku uzmanı</p>
             </div>
             <div className="flex flex-col items-center text-center">
               <Users className="w-12 h-12 text-amber-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Güvenilir Danışmanlık</h3>
-              <p className="text-gray-300">Müvekkillerimizin haklarını koruma odaklı yaklaşım</p>
+              <h3 className="text-xl font-semibold mb-2">İnsan Hakları</h3>
+              <p className="text-gray-300">Doğu Türkistan ve insan hakları alanında çalışmalar</p>
             </div>
             <div className="flex flex-col items-center text-center">
               <Scale className="w-12 h-12 text-amber-400 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Kapsamlı Hizmet</h3>
-              <p className="text-gray-300">Çok sayıda hukuk alanında profesyonel destek</p>
+              <h3 className="text-xl font-semibold mb-2">Çok Dilli Hizmet</h3>
+              <p className="text-gray-300">İngilizce, Rusça ve Almanca dil desteği</p>
             </div>
           </div>
         </div>

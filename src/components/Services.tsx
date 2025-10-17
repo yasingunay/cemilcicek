@@ -12,39 +12,24 @@ const services = [
     description: 'İdari işlem ve eylemlerle ilgili hukuki destek'
   },
   {
-    icon: Briefcase,
-    title: 'Memur Hukuku',
-    description: 'Kamu görevlileri için hukuki danışmanlık ve dava takibi'
-  },
-  {
-    icon: Users,
-    title: 'İşçi Hukuku',
-    description: 'İş hukuku uyuşmazlıklarında hukuki danışmanlık'
-  },
-  {
-    icon: Home,
-    title: 'Gayrimenkul Hukuku',
-    description: 'Taşınmaz hukuku ve gayrimenkul davaları'
-  },
-  {
-    icon: FileText,
-    title: 'Ceza İnfaz Hukuku',
-    description: 'İnfaz ve cezaların ertelenmesi konularında hukuki destek'
-  },
-  {
-    icon: Lock,
-    title: 'Kişisel Verilerin Korunması',
-    description: 'KVKK uyum ve danışmanlık hizmetleri'
+    icon: Scale,
+    title: 'Anayasa Hukuku',
+    description: 'Anayasa Mahkemesi bireysel başvuru ve anayasal haklar'
   },
   {
     icon: Heart,
-    title: 'Aile ve Miras Hukuku',
-    description: 'Aile hukuku ve miras davaları takibi'
+    title: 'İnsan Hakları',
+    description: 'İnsan hakları ihlalleri ve uluslararası hukuk'
   },
   {
-    icon: HandshakeIcon,
-    title: 'Arabuluculuk ve Uzlaşma',
-    description: 'Alternatif uyuşmazlık çözüm yöntemleri'
+    icon: Gavel,
+    title: 'Politika Hukuku',
+    description: 'Siyasi haklar ve demokratik süreçler'
+  },
+  {
+    icon: FileText,
+    title: 'Doğu Türkistan',
+    description: 'Uygur Türklerinin insan hakları ihlalleri'
   },
   {
     icon: Building,

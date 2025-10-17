@@ -15,8 +15,9 @@ export default function About() {
               <div className="bg-white p-6 rounded-lg shadow-md">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">Av. Cemil Çiçek</h3>
                 <p className="text-gray-700 leading-relaxed mb-6">
-                  Hukuk alanında uzun yılların verdiği deneyim ve bilgi birikimi ile müvekkillerimize profesyonel hukuk hizmeti sunmaktayız.
-                  Adalet ve hukuk ilkeleri doğrultusunda, müvekkillerimizin haklarını koruma ve en iyi sonucu elde etme misyonu ile çalışıyoruz.
+                  1996 yılında Ankara'nın Keçiören ilçesinde doğdum. Atılım Üniversitesi Hukuk Fakültesi'nde tam burslu olarak lisans eğitimimi tamamladım. 
+                  Ankara Sosyal Bilimler Üniversitesi'nde Asya Çalışmaları alanında yüksek lisans yapıyorum. Ankara Barosu'nda stajımı tamamlayarak 
+                  şu anda Ankara 1 Nolu Barosu'na kayıtlı olarak serbest avukatlık yapmaktayım.
                 </p>
 
                 <div className="space-y-4">
@@ -25,8 +26,7 @@ export default function About() {
                     <div>
                       <h4 className="font-semibold text-gray-900 mb-1">Uzmanlık Alanları</h4>
                       <p className="text-gray-600">
-                        Ceza Hukuku, İdare Hukuku, Anayasa Mahkemesi Bireysel Başvuru,
-                        Avrupa İnsan Hakları Mahkemesi Başvurusu, Memur ve İşçi Hukuku
+                        Ceza Hukuku, İdare Hukuku, Anayasa Hukuku, İnsan Hakları, Politika
                       </p>
                     </div>
                   </div>
@@ -34,8 +34,8 @@ export default function About() {
                   <div className="flex items-start space-x-3">
                     <Languages className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
                     <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Yabancı Dil</h4>
-                      <p className="text-gray-600">İngilizce</p>
+                      <h4 className="font-semibold text-gray-900 mb-1">Yabancı Diller</h4>
+                      <p className="text-gray-600">İngilizce, Rusça, Almanca</p>
                     </div>
                   </div>
                 </div>

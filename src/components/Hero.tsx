@@ -27,9 +27,6 @@ export default function Hero() {
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Av. Cemil Çiçek
           </h1>
-          <p className="text-xl md:text-2xl mb-4 text-gray-200 font-light">
-            Ceza Hukuku • İdare Hukuku • Anayasa Hukuku
-          </p>
           <p className="text-lg md:text-xl mb-12 text-gray-300 max-w-3xl mx-auto">
             Adaletin sesi olmaya, özgürlüğün savunuculuğunu üstlenmeye ve insan haklarını kararlılıkla korumaya adanmış bir hukuk anlayışıyla; her müvekkil için güven, her dava için adalet hedefliyoruz.
           </p>

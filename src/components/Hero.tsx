@@ -31,7 +31,7 @@ export default function Hero() {
             Ceza Hukuku • İdare Hukuku • Anayasa Hukuku
           </p>
           <p className="text-lg md:text-xl mb-12 text-gray-300 max-w-3xl mx-auto">
-            Ankara Barosu'na kayıtlı avukat. İnsan hakları ve politika alanında uzman. İngilizce, Rusça ve Almanca dil desteği.
+            Adaletin sesi olmaya, özgürlüğün savunuculuğunu üstlenmeye ve insan haklarını kararlılıkla korumaya adanmış bir hukuk anlayışıyla; her müvekkil için güven, her dava için adalet hedefliyoruz.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

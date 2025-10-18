@@ -1,5 +1,9 @@
 import { Newspaper, ExternalLink } from 'lucide-react';
 
+interface PressProps {
+  onShowComingSoon: () => void;
+}
+
 const pressItems = [
   {
     title: 'CNN Türk\'te Cemil Çiçekler Karıştı',
@@ -51,7 +55,7 @@ const pressItems = [
   }
 ];
 
-export default function Press() {
+export default function Press({ onShowComingSoon }: PressProps) {
   return (
     <section id="press" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -68,12 +72,10 @@ export default function Press() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {pressItems.map((item, index) => (
-            <a
+            <div
               key={index}
-              href={item.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group"
+              onClick={onShowComingSoon}
+              className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 group cursor-pointer"
             >
               <div className="relative overflow-hidden aspect-video">
                 <img
@@ -97,7 +99,7 @@ export default function Press() {
                   {item.excerpt}
                 </p>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>

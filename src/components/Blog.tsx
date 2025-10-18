@@ -1,4 +1,9 @@
-import { BookOpen, Calendar, ArrowRight } from 'lucide-react';
+import { BookOpen, Calendar, ArrowRight, Loader2 } from 'lucide-react';
+import { useState } from 'react';
+
+interface BlogProps {
+  onShowComingSoon: () => void;
+}
 
 interface BlogPost {
   id: number;
@@ -67,7 +72,20 @@ const initialBlogPosts: BlogPost[] = [
   }
 ];
 
-export default function Blog() {
+export default function Blog({ onShowComingSoon }: BlogProps) {
+  const [loadingPost, setLoadingPost] = useState<number | null>(null);
+
+  const handlePostClick = (postId: number, link: string) => {
+    setLoadingPost(postId);
+    
+    // Simulate loading for 2 seconds
+    setTimeout(() => {
+      setLoadingPost(null);
+      // Open the link after loading
+      window.open(link, '_blank', 'noopener,noreferrer');
+    }, 2000);
+  };
+
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     return date.toLocaleDateString('tr-TR', {
@@ -118,20 +136,23 @@ export default function Blog() {
                 <p className="text-gray-600 text-sm mb-4 line-clamp-3">
                   {post.excerpt}
                 </p>
-                <a
-                  href={post.link}
-                  className="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium transition-colors group"
+                <button
+                  onClick={onShowComingSoon}
+                  className="inline-flex items-center text-amber-600 hover:text-amber-700 font-medium transition-colors group cursor-pointer"
                 >
                   <span>Devamını Oku</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                </a>
+                </button>
               </div>
             </article>
           ))}
         </div>
 
         <div className="mt-12 text-center">
-          <button className="px-8 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 font-semibold rounded-lg transition-all">
+          <button 
+            onClick={onShowComingSoon}
+            className="px-8 py-3 bg-gray-100 hover:bg-gray-200 text-gray-900 font-semibold rounded-lg transition-all cursor-pointer"
+          >
             Tüm Yazıları Görüntüle
           </button>
         </div>
